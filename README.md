@@ -3,7 +3,7 @@ Uses web-crawled data from whoscored.com to create a search engine to search foo
 In partial fullfilment for CS 410 - Text and Information Systems at the University of Illinois at Urbana-Champaign
 
 Authors:
-Radhir Kothuri\n
-Arnav Mishra\n
-Samir Chaudhry\n
-Katyayni Gupta\n
+Radhir Kothuri
+Arnav Mishra
+Samir Chaudhry
+Katyayni Gupta
