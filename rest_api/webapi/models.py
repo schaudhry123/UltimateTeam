@@ -3,10 +3,15 @@ from django.db import models
 # Create your models here.
 class Team(models.Model):
 	team_name = models.CharField(max_length=100, null=True)
+	# team_name = models.TextField()
 	manager = models.CharField(max_length=100, null=True)
+	# manager = models.TextField()
 	league = models.CharField(max_length=100, null=True)
+	# league = models.TextField()
 	location = models.CharField(max_length=100, null=True)
+	# location = models.TextField()
 	team_titles = models.IntegerField(default=0, null=True)
+	owner = models.ForeignKey('auth.User', related_name='%(class)splayers', default=0)
 
 	# For printing string
 	def __str__(self):
@@ -22,6 +27,7 @@ class Player(models.Model):
 	team = models.ForeignKey(Team, on_delete=models.CASCADE, null=True)
 	nationality = models.CharField(max_length=100, null=True)
 	player_league = models.CharField(max_length=100, null=True)
+	owner = models.ForeignKey('auth.User', related_name='%(class)steams', default=0)
 
 	class Meta:
 		ordering = ["player_name"]
