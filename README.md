@@ -7,3 +7,5 @@ Radhir Kothuri
 Arnav Mishra
 Samir Chaudhry
 Katyayni Gupta
+Nathan Marasigan
+Akhil Chuugani
