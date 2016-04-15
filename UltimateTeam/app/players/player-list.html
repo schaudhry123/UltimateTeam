@@ -1,0 +1,17 @@
+<h1>Players</h1>
+
+<div class="row">
+	<div class="col-md-2">
+		<!-- Sidebar content -->
+		Search: <input placeholder="Player name" ng-model="query">
+	</div>
+	<div class="col-md-10">
+		<!-- Body content -->
+		<ul>
+			<li ng-repeat="player in players | filter: query">
+				<a ng-href="#/players/{{player.id}}">{{player.player_name}}</a>
+				<p>{{player.team_name}}</p>
+			</li>
+		</ul>
+	</div>
+</div>
