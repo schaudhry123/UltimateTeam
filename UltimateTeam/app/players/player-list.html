@@ -7,11 +7,15 @@
 	</div>
 	<div class="col-md-10">
 		<!-- Body content -->
-		<ul>
-			<li ng-repeat="player in players | filter: query">
-				<a ng-href="#/players/{{player.id}}">{{player.player_name}}</a>
-				<p>{{player.team_name}}</p>
-			</li>
-		</ul>
+		<dl class="dl-horizontal">
+			<div ng-repeat="player in players | filter:query" class="player">
+				<dt>
+					<a ng-href="#/players/{{player.id}}">{{player.player_name}}</a>
+				</dt>
+				<dd>
+					<p>{{player.position}} – {{player.team_name}}</p>
+				</dd>
+			</div>
+		</dl>
 	</div>
 </div>
