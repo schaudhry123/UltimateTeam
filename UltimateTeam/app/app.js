@@ -23,6 +23,10 @@ config(['$routeProvider',
 				templateUrl: 'players/player-detail.html',
 				controller: 'PlayerDetailCtrl'
 			}).
+			when('/new-player', {
+				templateUrl: 'players/new-player.html',
+				controller: 'NewPlayerCtrl'
+			}).
 			when('/teams', {
 				templateUrl: 'teams/team-list.html',
 				controller: 'TeamListCtrl'
@@ -30,9 +34,9 @@ config(['$routeProvider',
 			when('/teams/:id', {
 				templateUrl: 'teams/team-detail.html',
 				controller: 'TeamDetailCtrl'
-			}).
-			otherwise({
-				redirectTo: '/home'
 			});
+			// otherwise({
+			// 	redirectTo: '/home'
+			// });
   // $routeProvider.otherwise({redirectTo: '/home'});
 	}]);
