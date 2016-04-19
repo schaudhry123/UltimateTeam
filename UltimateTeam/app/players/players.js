@@ -21,4 +21,9 @@ angular.module('ultimateTeam.players', ['ngRoute'])
 		$http.get('http://ultimate-team-rest-api.herokuapp.com/players/' + $routeParams.id + '.json').success(function(data) {
 			$scope.player = data;
 		});
+	}])
+
+.controller('NewPlayerCtrl', ['$scope', '$http',
+	function($scope, $http) {
+		$scope.lol = "Lol";
 	}]);
