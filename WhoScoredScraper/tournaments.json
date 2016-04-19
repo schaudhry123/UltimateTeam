@@ -1,44 +1,1682 @@
 {
-    "Brasileir\u00e3o": {
-        "link": "http://www.whoscored.com/Regions/31/Tournaments/95/Brazil-Brasileiro"
+    "AFC Asian Cup": {
+        "South Korea": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=666"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=504"
+    },
+    "African Cup Of Nations": {
+        "Ivory Coast": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=706"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=506"
+    },
+    "Austrian Bundesliga": {
+        "Austria Wien": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=530&club_id=361"
+        },
+        "FC Admira Wacker Modling": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=530&club_id=255"
+        },
+        "Rapid Wien": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=530&club_id=267"
+        },
+        "SC Rheindorf Altach": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=530&club_id=1411"
+        },
+        "SV Grodig": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=530&club_id=1862"
+        },
+        "SV Mattersburg": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=530&club_id=1412"
+        },
+        "SV Ried": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=530&club_id=360"
+        },
+        "Salzburg": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=530&club_id=357"
+        },
+        "Sturm Graz": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=530&club_id=128"
+        },
+        "Wolfsberger AC": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=530&club_id=1863"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=530"
     },
     "Bundesliga": {
-        "link": "http://www.whoscored.com/Regions/81/Tournaments/3/Germany-Bundesliga"
+        "1. FC Koln": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=92"
+        },
+        "1. FSV Mainz 05": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=981"
+        },
+        "Bayer Leverkusen": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=95"
+        },
+        "Bayern Munich": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=99"
+        },
+        "Borussia Dortmund": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=102"
+        },
+        "Borussia Monchengladbach": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=865"
+        },
+        "Eintracht Frankfurt": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=91"
+        },
+        "FC Augsburg": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=1668"
+        },
+        "FC Ingolstadt 04": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=1844"
+        },
+        "FC Schalke 04": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=89"
+        },
+        "Hamburger SV": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=101"
+        },
+        "Hannover 96": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=1023"
+        },
+        "Hertha BSC": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=103"
+        },
+        "SV Darmstadt 98": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=1845"
+        },
+        "TSG 1899 Hoffenheim": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=1420"
+        },
+        "VfB Stuttgart": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=96"
+        },
+        "VfL Wolfsburg": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=97"
+        },
+        "Werder Bremen": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=516&club_id=87"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=516"
     },
-    "Championship": {
-        "link": "http://www.whoscored.com/Regions/252/Tournaments/7/England-Championship"
+    "CONCACAF Gold Cup": {
+        "Jamaica": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=498"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=513"
     },
-    "EURO Cup": {
-        "link": "http://www.whoscored.com/Regions/247/Tournaments/124/International-EURO-Cup"
+    "Carling Nations Cup": {
+        "Northern Ireland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=360&club_id=214"
+        },
+        "Republic of Ireland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=360&club_id=210"
+        },
+        "Scotland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=360&club_id=229"
+        },
+        "Wales": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=360&club_id=226"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=360"
+    },
+    "Copa America": {
+        "Chile": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=409"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=512"
+    },
+    "Copa Libertadores Cup": {
+        "Atletico Mineiro": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=847"
+        },
+        "Olimpia": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=729"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=435"
+    },
+    "Danish Super League": {
+        "AGF Aarhus": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=568"
+        },
+        "Aalborg BK": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=577"
+        },
+        "Brondby": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=156"
+        },
+        "Esbjerg": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=878"
+        },
+        "FC Copenhagen": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=574"
+        },
+        "FC Midtylland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=571"
+        },
+        "Hobro IK": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=1861"
+        },
+        "Nordsjaelland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=1214"
+        },
+        "Odense": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=575"
+        },
+        "Randers FC": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=1792"
+        },
+        "SonderjyskE": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=573"
+        },
+        "Viborg": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=529&club_id=576"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=529"
+    },
+    "English Championship": {
+        "Birmingham City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=48"
+        },
+        "Blackburn Rovers": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=34"
+        },
+        "Bolton Wanderers": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=29"
+        },
+        "Brentford": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=84"
+        },
+        "Brighton & Hove Albion": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=749"
+        },
+        "Bristol City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=307"
+        },
+        "Burnley": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=54"
+        },
+        "Cardiff City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=108"
+        },
+        "Charlton Athletic": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=7"
+        },
+        "Derby County": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=9"
+        },
+        "Fulham": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=55"
+        },
+        "Huddersfield Town": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=58"
+        },
+        "Hull City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=752"
+        },
+        "Ipswich Town": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=11"
+        },
+        "Leeds United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=12"
+        },
+        "Middlesbrough": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=15"
+        },
+        "Milton Keynes Dons": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=22"
+        },
+        "Nottingham Forest": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=28"
+        },
+        "Preston North End": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=60"
+        },
+        "Queens Park Rangers": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=30"
+        },
+        "Reading": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=746"
+        },
+        "Rotherham United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=306"
+        },
+        "Sheffield Wednesday": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=17"
+        },
+        "Wolverhampton Wanderers": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=524&club_id=63"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=524"
+    },
+    "English Championship Play Off`s": {
+        "Middlesbrough": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=15"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=508"
+    },
+    "English League One": {
+        "Barnsley": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=26"
+        },
+        "Blackpool": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=189"
+        },
+        "Bradford City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=6"
+        },
+        "Burton Albion": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=1296"
+        },
+        "Bury": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=53"
+        },
+        "Chesterfield": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=192"
+        },
+        "Colchester United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=188"
+        },
+        "Coventry City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=25"
+        },
+        "Crewe Alexandra": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=49"
+        },
+        "Doncaster Rovers": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=265"
+        },
+        "Fleetwood Town": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=1438"
+        },
+        "Gillingham": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=56"
+        },
+        "Millwall": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=107"
+        },
+        "Oldham Athletic": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=32"
+        },
+        "Peterborough United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=305"
+        },
+        "Port Vale": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=748"
+        },
+        "Rochdale": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=750"
+        },
+        "Scunthorpe United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=304"
+        },
+        "Sheffield United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=27"
+        },
+        "Shrewsbury Town": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=756"
+        },
+        "Southend United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=106"
+        },
+        "Swindon Town": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=33"
+        },
+        "Walsall": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=185"
+        },
+        "Wigan Athletic": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=525&club_id=85"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=525"
+    },
+    "English League One Play Off`s": {
+        "Preston North End": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=60"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=510"
+    },
+    "English League Two": {
+        "AFC Wimbledon": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=1440"
+        },
+        "Accrington Stanley": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=1270"
+        },
+        "Barnet": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=754"
+        },
+        "Bristol Rovers": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=182"
+        },
+        "Cambridge United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=86"
+        },
+        "Carlisle United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=303"
+        },
+        "Crawley Town": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=1510"
+        },
+        "Dagenham & Redbridge": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=310"
+        },
+        "Exeter City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=759"
+        },
+        "Hartlepool United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=751"
+        },
+        "Leyton Orient": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=109"
+        },
+        "Luton Town": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=184"
+        },
+        "Mansfield Town": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=186"
+        },
+        "Morecambe": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=308"
+        },
+        "Newport County": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=1041"
+        },
+        "Northampton Town": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=745"
+        },
+        "Notts County": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=191"
+        },
+        "Oxford United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=262"
+        },
+        "Plymouth Argyle": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=753"
+        },
+        "Portsmouth": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=59"
+        },
+        "Stevenage": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=1295"
+        },
+        "Wycombe Wanderers": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=190"
+        },
+        "Yeovil Town": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=302"
+        },
+        "York City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=526&club_id=260"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=526"
+    },
+    "English League Two Play Off`s": {
+        "Southend United": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=106"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=509"
     },
     "Eredivisie": {
-        "link": "http://www.whoscored.com/Regions/155/Tournaments/13/Netherlands-Eredivisie"
+        "ADO Den Haag": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=1139"
+        },
+        "AFC Ajax": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=248"
+        },
+        "AZ Alkmaar": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=321"
+        },
+        "De Graafschap": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=327"
+        },
+        "FC Groningen": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=323"
+        },
+        "FC Twente": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=322"
+        },
+        "FC Utrecht": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=318"
+        },
+        "Feyenoord": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=167"
+        },
+        "Heracles Almelo": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=1138"
+        },
+        "NEC Nijmegen": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=316"
+        },
+        "PEC Zwolle": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=1795"
+        },
+        "PSV Eindhoven": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=131"
+        },
+        "Roda JC": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=315"
+        },
+        "SBV Excelsior": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=1825"
+        },
+        "SC Cambuur": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=1132"
+        },
+        "SC Heerenveen": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=129"
+        },
+        "Vitesse Arnhem": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=314"
+        },
+        "Willem Tilburg": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=520&club_id=319"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=520"
+    },
+    "Euro": {
+        "Russia": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=200"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=399"
+    },
+    "European Championships Qualifying": {
+        "Bosnia and Herzegovina": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=237"
+        },
+        "Denmark": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=211"
+        },
+        "Hungary": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=242"
+        },
+        "Norway": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=223"
+        },
+        "Republic of Ireland": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=210"
+        },
+        "Slovenia": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=202"
+        },
+        "Sweden": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=217"
+        },
+        "Ukraine": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=224"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=487"
+    },
+    "FA Charity Shield": {
+        "Arsenal": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=531&club_id=5"
+        },
+        "Chelsea": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=531&club_id=8"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=531"
+    },
+    "FA Cup": {
+        "Crystal Palace": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=35"
+        },
+        "Everton": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=10"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=548"
+    },
+    "FIFA Club World Championship": {
+        "Santos": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=845"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=388"
+    },
+    "FIFA Confederations Cup": {
+        "Brazil": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=407"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=445"
+    },
+    "FIFA World Cup": {
+        "Germany": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=196"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=474"
+    },
+    "FIFA World Cup Qualifying": {
+        "Jordan": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=473&club_id=439"
+        },
+        "Mexico": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=473&club_id=502"
+        },
+        "New Zealand": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=473&club_id=874"
+        },
+        "Uruguay": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=473&club_id=406"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=473"
+    },
+    "FIFA World Cup Qualifying Africa": {
+        "Algeria": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=701"
+        },
+        "Burkina Faso": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=708"
+        },
+        "Cameroon": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=673"
+        },
+        "Egypt": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=668"
+        },
+        "Ethiopia": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=1120"
+        },
+        "Ghana": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=697"
+        },
+        "Ivory Coast": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=706"
+        },
+        "Nigeria": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=674"
+        },
+        "Senegal": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=703"
+        },
+        "Tunisia": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=672"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=401"
+    },
+    "FIFA World Cup Qualifying Asia": {
+        "Jordan": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=439"
+        },
+        "Uzbekistan": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=438"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=411"
+    },
+    "FIFA World Cup Qualifying Europe": {
+        "France": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=194"
+        },
+        "Greece": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=197"
+        },
+        "Iceland": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=213"
+        },
+        "Portugal": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=206"
+        },
+        "Romania": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=239"
+        },
+        "Sweden": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=217"
+        },
+        "Ukraine": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=224"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=424"
+    },
+    "FIFA World Cup Qualifying Oceania": {
+        "American Samoa": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=291&club_id=795"
+        },
+        "Fiji": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=291&club_id=793"
+        },
+        "New Zealand": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=291&club_id=874"
+        },
+        "Tonga": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=291&club_id=792"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=291"
+    },
+    "Fifa WC Qualifying south America": {
+        "Argentina": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=543&club_id=404"
+        },
+        "Bolivia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=543&club_id=412"
+        },
+        "Brazil": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=543&club_id=407"
+        },
+        "Chile": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=543&club_id=409"
+        },
+        "Colombia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=543&club_id=405"
+        },
+        "Ecuador": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=543&club_id=410"
+        },
+        "Paraguay": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=543&club_id=408"
+        },
+        "Peru": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=543&club_id=411"
+        },
+        "Uruguay": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=543&club_id=406"
+        },
+        "Venezuela": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=543&club_id=413"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=543"
+    },
+    "French Ligue": {
+        "AS Monaco": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=75"
+        },
+        "AS Saint-Etienne": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=72"
+        },
+        "Angers SCO": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=1843"
+        },
+        "Caen": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=1154"
+        },
+        "En Avant Guingamp": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=81"
+        },
+        "FC Nantes": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=73"
+        },
+        "Gazelec Ajaccio": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=1842"
+        },
+        "Girondins De Bordeaux": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=82"
+        },
+        "Lille OSC": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=79"
+        },
+        "Lorient": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=869"
+        },
+        "Montpellier HSC": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=868"
+        },
+        "OGC Nice": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=1092"
+        },
+        "Olympique Lyonnais": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=78"
+        },
+        "Olympique Marseille": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=77"
+        },
+        "Paris Saint-Germain": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=74"
+        },
+        "SC Bastia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=83"
+        },
+        "Stade Reims": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=1367"
+        },
+        "Stade Rennes": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=71"
+        },
+        "Toulouse": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=66"
+        },
+        "Troyes AC": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=514&club_id=67"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=514"
+    },
+    "German Super Cup": {
+        "Bayern Munich": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=533&club_id=99"
+        },
+        "VfL Wolfsburg": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=533&club_id=97"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=533"
+    },
+    "International Friendlies": {
+        "Albania": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=198"
+        },
+        "Algeria": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=701"
+        },
+        "Andorra": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=208"
+        },
+        "Angola": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=694"
+        },
+        "Argentina": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=404"
+        },
+        "Armenia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=227"
+        },
+        "Australia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=669"
+        },
+        "Austria": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=235"
+        },
+        "Azerbaijan": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=222"
+        },
+        "Belarus": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=228"
+        },
+        "Belgium": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=230"
+        },
+        "Bolivia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=412"
+        },
+        "Bosnia and Herzegovina": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=237"
+        },
+        "Brazil": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=407"
+        },
+        "Bulgaria": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=212"
+        },
+        "Cameroon": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=673"
+        },
+        "Canada": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=503"
+        },
+        "Cape Verde": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=1111"
+        },
+        "Chile": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=409"
+        },
+        "China": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=446"
+        },
+        "Colombia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=405"
+        },
+        "Costa Rica": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=494"
+        },
+        "Croatia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=231"
+        },
+        "Cuba": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=505"
+        },
+        "Cyprus": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=207"
+        },
+        "Czech Republic": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=216"
+        },
+        "Denmark": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=211"
+        },
+        "Ecuador": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=410"
+        },
+        "Egypt": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=668"
+        },
+        "El Salvador": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=499"
+        },
+        "England": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=193"
+        },
+        "Estonia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=209"
+        },
+        "Faroe Islands": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=204"
+        },
+        "Finland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=195"
+        },
+        "France": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=194"
+        },
+        "Georgia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=243"
+        },
+        "Germany": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=196"
+        },
+        "Ghana": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=697"
+        },
+        "Gibraltar": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=1812"
+        },
+        "Greece": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=197"
+        },
+        "Guatemala": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=495"
+        },
+        "Haiti": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=507"
+        },
+        "Honduras": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=497"
+        },
+        "Hong Kong": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=424"
+        },
+        "Hungary": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=242"
+        },
+        "Iceland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=213"
+        },
+        "Iran": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=418"
+        },
+        "Iraq": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=434"
+        },
+        "Israel": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=236"
+        },
+        "Italy": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=240"
+        },
+        "Ivory Coast": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=706"
+        },
+        "Jamaica": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=498"
+        },
+        "Japan": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=665"
+        },
+        "Jordan": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=439"
+        },
+        "Kazakhstan": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=435"
+        },
+        "Kuwait": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=426"
+        },
+        "Kyrgystan": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=429"
+        },
+        "Latvia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=232"
+        },
+        "Liechtenstein": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=238"
+        },
+        "Lithuania": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=241"
+        },
+        "Luxembourg": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=203"
+        },
+        "Macao": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=437"
+        },
+        "Macedonia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=220"
+        },
+        "Malta": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=215"
+        },
+        "Mexico": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=502"
+        },
+        "Moldova": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=221"
+        },
+        "Mongolia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=453"
+        },
+        "Morocco": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=670"
+        },
+        "Netherlands": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=205"
+        },
+        "New Zealand": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=874"
+        },
+        "Nicaragua": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=492"
+        },
+        "Nigeria": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=674"
+        },
+        "Northern Ireland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=214"
+        },
+        "Norway": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=223"
+        },
+        "Oman": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=414"
+        },
+        "Pakistan": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=433"
+        },
+        "Panama": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=504"
+        },
+        "Paraguay": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=408"
+        },
+        "Peru": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=411"
+        },
+        "Poland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=225"
+        },
+        "Portugal": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=206"
+        },
+        "Puerto Rico": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=521"
+        },
+        "Qatar": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=422"
+        },
+        "Republic of Ireland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=210"
+        },
+        "Romania": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=239"
+        },
+        "Russia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=200"
+        },
+        "San Marino": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=233"
+        },
+        "Saudi Arabia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=450"
+        },
+        "Scotland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=229"
+        },
+        "Senegal": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=703"
+        },
+        "Serbia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=1267"
+        },
+        "Serbia and Montenegro": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=1806"
+        },
+        "Slovakia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=219"
+        },
+        "Slovenia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=202"
+        },
+        "South Africa": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=667"
+        },
+        "South Korea": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=666"
+        },
+        "Spain": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=234"
+        },
+        "Sudan": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=700"
+        },
+        "Sweden": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=217"
+        },
+        "Switzerland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=201"
+        },
+        "Tajikistan": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=419"
+        },
+        "Trinidad and Tobago": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=501"
+        },
+        "Tunisia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=672"
+        },
+        "Turkey": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=218"
+        },
+        "Ukraine": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=224"
+        },
+        "United Arab Emirates": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=442"
+        },
+        "United States": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=496"
+        },
+        "Uruguay": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=406"
+        },
+        "Uzbekistan": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=438"
+        },
+        "Venezuela": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=413"
+        },
+        "Wales": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=226"
+        },
+        "Zambia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=542&club_id=671"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=542"
+    },
+    "Johan Cruijff Schaal": {
+        "FC Groningen": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=538&club_id=323"
+        },
+        "PSV Eindhoven": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=538&club_id=131"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=538"
     },
     "La Liga": {
-        "link": "http://www.whoscored.com/Regions/206/Tournaments/4/Spain-La-Liga"
+        "Athletic Bilbao": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=139"
+        },
+        "Atletico Madrid": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=311"
+        },
+        "Barcelona": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=116"
+        },
+        "Celta Vigo": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=140"
+        },
+        "Deportivo La Coruna": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=134"
+        },
+        "Eibar": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=1824"
+        },
+        "Espanyol": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=141"
+        },
+        "Getafe": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=1101"
+        },
+        "Granada CF": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=1667"
+        },
+        "Las Palmas": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=142"
+        },
+        "Levante": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=1287"
+        },
+        "Malaga": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=143"
+        },
+        "Rayo Vallecano": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=149"
+        },
+        "Real Betis": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=937"
+        },
+        "Real Madrid": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=115"
+        },
+        "Real Sociedad": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=150"
+        },
+        "Sevilla": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=936"
+        },
+        "Sporting Gijon": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=810"
+        },
+        "Valencia": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=117"
+        },
+        "Villarreal": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=518&club_id=152"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=518"
     },
-    "Ligue 1": {
-        "link": "http://www.whoscored.com/Regions/74/Tournaments/22/France-Ligue-1"
+    "League Cup": {
+        "Liverpool": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=4"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=532"
     },
-    "Major League Soccer": {
-        "link": "http://www.whoscored.com/Regions/233/Tournaments/85/USA-Major-League-Soccer"
+    "MLS": {
+        "Chicago Fire": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=468"
+        },
+        "Colorado Rapids": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=472"
+        },
+        "Columbus Crew": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=469"
+        },
+        "DC United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=464"
+        },
+        "FC Dallas": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=470"
+        },
+        "Houston Dynamo": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=1398"
+        },
+        "Los Angeles Galaxy": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=474"
+        },
+        "Montreal Impact": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=1708"
+        },
+        "New England Revolution": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=467"
+        },
+        "New York City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=1820"
+        },
+        "New York Red Bulls": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=1274"
+        },
+        "Orlando City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=1840"
+        },
+        "Philadelphia Union": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=1604"
+        },
+        "Portland Timbers": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=1603"
+        },
+        "Real Salt Lake": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=1397"
+        },
+        "San Jose Earthquakes": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=475"
+        },
+        "Seattle Sounders": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=1441"
+        },
+        "Sporting Kansas City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=473"
+        },
+        "Toronto FC": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=1395"
+        },
+        "Vancouver Whitecaps": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=551&club_id=1602"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=551"
+    },
+    "MLS Cup": {
+        "Columbus Crew": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=469"
+        },
+        "New York Red Bulls": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=1274"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=544"
+    },
+    "Portuguese Super Cup": {
+        "Benfica": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=537&club_id=290"
+        },
+        "Sporting Lisbon": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=537&club_id=132"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=537"
     },
     "Premier League": {
-        "link": "http://www.whoscored.com/Regions/182/Tournaments/77/Russia-Premier-League"
+        "AFC Bournemouth": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=111"
+        },
+        "Arsenal": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=5"
+        },
+        "Aston Villa": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=24"
+        },
+        "Chelsea": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=8"
+        },
+        "Crystal Palace": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=35"
+        },
+        "Everton": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=10"
+        },
+        "Leicester City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=13"
+        },
+        "Liverpool": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=4"
+        },
+        "Manchester City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=14"
+        },
+        "Manchester United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=3"
+        },
+        "Newcastle United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=16"
+        },
+        "Norwich City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=31"
+        },
+        "Southampton": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=18"
+        },
+        "Stoke City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=187"
+        },
+        "Sunderland": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=23"
+        },
+        "Swansea City": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=747"
+        },
+        "Tottenham Hotspur": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=19"
+        },
+        "Watford": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=20"
+        },
+        "West Bromwich Albion": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=64"
+        },
+        "West Ham United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=515&club_id=21"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=515"
     },
-    "Primera Divisi\u00f3n": {
-        "link": "http://www.whoscored.com/Regions/11/Tournaments/68/Argentina-Primera-Divisin"
+    "Scottish Premier League": {
+        "Aberdeen": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=36"
+        },
+        "Dundee": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=37"
+        },
+        "Dundee United": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=38"
+        },
+        "Glasgow Celtic": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=43"
+        },
+        "Hamilton Academical": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=1419"
+        },
+        "Heart of Midlothian": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=40"
+        },
+        "Inverness Cali": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=1281"
+        },
+        "Kilmarnock": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=44"
+        },
+        "Motherwell": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=45"
+        },
+        "Partick Thistle": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=1217"
+        },
+        "Ross County": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=1179"
+        },
+        "St Johnstone": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=521&club_id=46"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=521"
     },
     "Serie A": {
-        "link": "http://www.whoscored.com/Regions/108/Tournaments/5/Italy-Serie-A"
+        "AC Milan": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=125"
+        },
+        "AS Roma": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=178"
+        },
+        "Atalanta": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=168"
+        },
+        "Bologna": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=170"
+        },
+        "Carpi": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=1841"
+        },
+        "Chievo": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=943"
+        },
+        "Empoli": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=1026"
+        },
+        "Fiorentina": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=173"
+        },
+        "Frosinone": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=1846"
+        },
+        "Genoa": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=1103"
+        },
+        "Hellas Verona": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=180"
+        },
+        "Internazionale": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=166"
+        },
+        "Juventus": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=124"
+        },
+        "Napoli": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=174"
+        },
+        "Palermo": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=1123"
+        },
+        "SS Lazio": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=118"
+        },
+        "Sampdoria": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=992"
+        },
+        "Sassuolo": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=1788"
+        },
+        "Torino": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=944"
+        },
+        "Udinese": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=517&club_id=179"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=517"
     },
-    "Super Lig": {
-        "link": "http://www.whoscored.com/Regions/225/Tournaments/17/Turkey-Super-Lig"
+    "Spanish Super Cup": {
+        "Athletic Bilbao": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=536&club_id=139"
+        },
+        "Barcelona": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=536&club_id=116"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=536"
+    },
+    "Suppacoppa Italiana": {
+        "Juventus": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=535&club_id=124"
+        },
+        "SS Lazio": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=535&club_id=118"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=535"
+    },
+    "Swiss Super League": {
+        "BSC Young Boys": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=528&club_id=883"
+        },
+        "FC Basel": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=528&club_id=245"
+        },
+        "FC Luzern": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=528&club_id=362"
+        },
+        "FC Thun": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=528&club_id=1272"
+        },
+        "FC Zurich": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=528&club_id=364"
+        },
+        "Grasshoppers": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=528&club_id=366"
+        },
+        "Lugano": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=528&club_id=363"
+        },
+        "Sion": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=528&club_id=365"
+        },
+        "St Gallen": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=528&club_id=155"
+        },
+        "Vaduz": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=528&club_id=1094"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=528"
+    },
+    "Trophee des Champions": {
+        "Olympique Lyonnais": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=534&club_id=78"
+        },
+        "Paris Saint-Germain": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=534&club_id=74"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=534"
     },
     "UEFA Champions League": {
-        "link": "http://www.whoscored.com/Regions/250/Tournaments/12/Europe-UEFA-Champions-League"
+        "Atletico Madrid": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=311"
+        },
+        "Bayern Munich": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=99"
+        },
+        "Benfica": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=290"
+        },
+        "Manchester City": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=14"
+        },
+        "Paris Saint-Germain": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=74"
+        },
+        "Real Madrid": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=115"
+        },
+        "VfL Wolfsburg": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=97"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=540"
+    },
+    "UEFA Champions League Qualifying": {
+        "APOEL Nicosia": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=1017"
+        },
+        "AS Monaco": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=75"
+        },
+        "Bayer Leverkusen": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=95"
+        },
+        "CSKA Moscow": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=796"
+        },
+        "Club Brugge": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=279"
+        },
+        "Dinamo Zagreb": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=154"
+        },
+        "FC Astana": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=1850"
+        },
+        "FC BATE Borisov": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=959"
+        },
+        "FC Basel": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=245"
+        },
+        "Glasgow Celtic": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=43"
+        },
+        "Maccabi Tel Aviv": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=872"
+        },
+        "Malmo FF": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=565"
+        },
+        "Manchester United": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=3"
+        },
+        "Partizan Belgrade": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=811"
+        },
+        "Rapid Wien": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=267"
+        },
+        "SS Lazio": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=118"
+        },
+        "Shakhtar Donetsk": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=136"
+        },
+        "Skenderbeu Korce": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=1641"
+        },
+        "Sporting Lisbon": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=132"
+        },
+        "Valencia": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=117"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=522"
     },
     "UEFA Europa League": {
-        "link": "http://www.whoscored.com/Regions/250/Tournaments/30/Europe-UEFA-Europa-League"
+        "Athletic Bilbao": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=139"
+        },
+        "Borussia Dortmund": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=102"
+        },
+        "Liverpool": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=4"
+        },
+        "Sevilla": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=936"
+        },
+        "Shakhtar Donetsk": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=136"
+        },
+        "Sparta Prague": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=122"
+        },
+        "Sporting Braga": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=288"
+        },
+        "Villarreal": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=152"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=541"
+    },
+    "UEFA Europa League Qualifying": {
+        "AIK Solna": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=557"
+        },
+        "Anzhi Makhachkala": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=806"
+        },
+        "Athletic Bilbao": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=139"
+        },
+        "Bursaspor": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=346"
+        },
+        "Debreceni VSC": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=914"
+        },
+        "Dinamo Bucharest": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=650"
+        },
+        "Dinamo Moscow": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=798"
+        },
+        "Ekranas": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=1638"
+        },
+        "FC Luzern": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=362"
+        },
+        "FC Midtylland": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=571"
+        },
+        "FC Sheriff Tiraspol": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=901"
+        },
+        "Feyenoord": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=167"
+        },
+        "Heart of Midlothian": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=40"
+        },
+        "Legia Warsaw": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=677"
+        },
+        "Molde FK": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=531"
+        },
+        "Motherwell": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=45"
+        },
+        "Neftchi Baku": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=1004"
+        },
+        "PAOK Salonika": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=268"
+        },
+        "Slask Wroclaw": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=685"
+        },
+        "Slovan Liberec": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=253"
+        },
+        "Sparta Prague": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=122"
+        },
+        "VfB Stuttgart": {
+            "link": "https://www.statbunker.com/clubs/getClubDetails?club_id=96"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=418"
+    },
+    "UEFA Super Cup": {
+        "Real Madrid": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=498&club_id=115"
+        },
+        "Sevilla": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=498&club_id=936"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=498"
+    },
+    "World Cup Qualifying N & C America": {
+        "Canada": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=549&club_id=503"
+        },
+        "El Salvador": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=549&club_id=499"
+        },
+        "Group Overview\u00bb": {
+            "link": "https://www.statbunker.comhttps://www.statbunker.com/competitions/Sections?comp_id=549&section_id=1071&group_id=779"
+        },
+        "Honduras": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=549&club_id=497"
+        },
+        "Mexico": {
+            "link": "https://www.statbunker.com/competitions/TopGoalScorers?comp_id=549&club_id=502"
+        },
+        "link": "https://www.statbunker.com/https://www.statbunker.com/competitions/LeagueTable?comp_id=549"
     }
 }
