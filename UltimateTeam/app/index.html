@@ -9,43 +9,62 @@
   <title>UltimateTeam</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+<!--   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css"> -->
   <link rel="stylesheet" href="app.css">
+  <link rel = "stylesheet" href = "../node_modules/angular-material/angular-material.min.css">
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
-<body>
-  <nav class="navbar navbar-default">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">UltimateTeam</a>
-    </div>
+<body layout = 'column'>
 
-     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#/home">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="#/players">Players</a></li>
-        <li><a href="#/teams">Teams</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Login</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </nav>
+  <md-toolbar class="md-primary md-hue-1">
+    <h2 align = "center">Ultimate Team</h2>
+  </md-toolbar>
+
+  <div class="container" layout = "row" flex>
+      <md-sidenav md-is-locked-open="true" class = "md-whiteframe-4dp" >
+        <div class="md-toolbar-tools">
+            <h3>
+              <span>My App Title</span>
+            </h3>
+        </div>
+        <md-list>
+          <md-list-item>
+            <md-button>
+              <a href="#/home">Home<span class="sr-only">(current)</span></a>
+          </md-button>
+          </md-list-item>
+          <md-list-item>
+            <md-button>
+              <a href="#/players">Players</a>
+            </md-button>
+          </md-list-item>
+          <md-list-item>
+            <md-button>
+             <a href="#/teams">Teams</a>
+            </md-button>
+          </md-list-item>
+          <md-list-item>
+            <md-button>
+              <a href="#/players">Players</a>
+            </md-button>
+          </md-list-item>
+         </md-list>
+      </md-sidenav>
+</div>
+<div layout-align = "center center">
+<md-content layout = "column "> 
+
+<div ng-view></div>
+  </md-content>
+</div>
+
+  
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-
-  <div ng-view class="container"></div>
-
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
@@ -58,5 +77,10 @@
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
+
+  <script src="../node_modules/angular/angular.min.js"></script>
+  <script src="../node_modules/angular-animate/angular-animate.js"></script>
+  <script src="../node_modules/angular-aria/angular-aria.js"></script>
+  <script src="../node_modules/angular-material/angular-material.min.js"></script>
 </body>
 </html>
