@@ -4,13 +4,13 @@ output = ["bundesliga_out.txt", "liga_out.txt", "premier_out.txt", "serie_a_out.
 for init,out in zip(files,output):
 	f = open("Data/" + init, "r")
 	a = open("Data/" + out, "w+")
-
 	start = 1
 	scores = 0
 	passers = 0
 	keepers = 0
 	defenders = 0
 	for line in f:
+		skill_added = 0
 		if start:
 			line = line.strip('\n')
 			line = line.strip('\r')
@@ -40,28 +40,34 @@ for init,out in zip(files,output):
 			if(splitted[14] == '-'):
 				splitted[14] = str(0)
 			goals = float(splitted[14])
-			if goals > 15:
+			if goals > 15 and not skill_added:
 				splitted.append("Scoring")
 				#print splitted[4]
+				skill_added = 1
 				scores += 1
 			if(splitted[19] == '-'):
 				splitted[19] = str(0)
 			pass_percentage = float(splitted[19])
-			if pass_percentage > 95:
+			if pass_percentage > 95 and not skill_added:
 				splitted.append("Passing")
 				#print splitted[4]
+				skill_added = 1
 				passers += 1
 			if(splitted[22] == '-'):
 				splitted[22] = str(0)
 			rating = float(splitted[22])
-			if rating >= 7 and splitted[6] == "Keeper":
+			if rating >= 7 and splitted[6] == "Keeper" and not skill_added:
 				splitted.append("Goalkeeping")
 				#print splitted[4]
+				skill_added = 1
 				keepers += 1
-			if rating >= 7.4 and splitted[6] == "Defender":
+			if rating >= 7.4 and splitted[6] == "Defender" and not skill_added:
 				splitted.append("Defending")
 				#print splitted[4]
+				skill_added = 1
 				defenders += 1
+			if not skill_added:
+				splitted.append("null")
 			line = ",".join(splitted)
 			a.write(line + "\r")
 	print "Top scorers added to " + out + ": " + str(scores)
