@@ -6,15 +6,7 @@
     <div class="mdl-card__supporting-text">
       <h6>User Preferences</h6>
       <md-input-container>
-        <label>Age</label>
-        <input ng-model="user.age" type="number" min="0" required>
-      </md-input-container>
-      <md-input-container>
-        <label>Zipcode</label>
-        <input ng-model="user.zipcode" md-maxlength="5" required>
-      </md-input-container>
-      <md-input-container>
-        <label>Gender</label>
+        <label>Favorite Team</label>
         <md-select ng-model="user.gender" aria-label="style" required>
           <md-option value="Male">Male</md-option>
           <md-option value="Female">Female</md-option>
@@ -93,7 +85,7 @@
       <md-checkbox class="md-primary" ng-model="user.user_amenity.beach">Beach</md-checkbox>
       <md-checkbox class="md-primary" ng-model="user.user_amenity.movie_theater">Movie Theater</md-checkbox>
       <md-checkbox class="md-primary" ng-model="user.user_amenity.amusement_park">Amusement Park</md-checkbox>
-    </div> 
+    </div>
     <div class="mdl-card__actions mdl-card--border">
       <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" ng-click="updateUser()">
         Submit

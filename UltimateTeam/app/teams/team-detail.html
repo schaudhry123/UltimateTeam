@@ -1,9 +1,0 @@
-<h1>{{team.team_name}}</h1>
-
-<p>Manager: {{team.manager}}</p>
-<p>League: {{team.league}}</p>
-<ul>
-	<li ng-repeat="player in team.players">
-		<a ng-href="#/players/{{player['id']}}">{{player["player_name"]}}</a>
-	</li>
-</ul>
