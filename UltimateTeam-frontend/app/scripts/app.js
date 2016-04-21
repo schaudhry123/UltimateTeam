@@ -74,6 +74,10 @@ angular
         templateUrl: 'views/team-detail.html',
         controller: 'TeamDetailCtrl'
       })
+      .when('/simulator', {
+        templateUrl: 'views/simulator.html',
+        controller: 'SimCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

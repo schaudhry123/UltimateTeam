@@ -1,0 +1,116 @@
+
+<div layout = "row" style="margin-top:100px">
+<div style = "margin-left:200px" flout:left;>
+<div class="left-card demo-card mdl-card mdl-shadow--2dp">
+<div class="mdl-card__title">
+  <h2 class="mdl-card__title-text">Teams</h2>
+</div>
+<div class="mdl-card__supporting-text">
+  <div style="margin-left: 100 px">
+	  <h1 class="md-title">Pick a Team 1 Below</h1>
+	    <div layout="row">
+	      <md-input-container>
+	        <label>Teams</label>
+	        <md-select ng-model="selectTeams"
+	                   md-on-close="clearSearchTerm()"
+	                   data-md-container-class="selectdemoSelectHeader">
+	          <md-select-header class="demo-select-header">
+	            <input ng-model="query"
+	                   type="search"
+	                   placeholder="Search for a team"
+	                   class="demo-header-searchbox _md-text">
+	          </md-select-header>
+	            <md-option ng-value="team" ng-repeat="team in teams | filter: query">{{team.team_name}}</md-option>
+	        </md-select>
+	      </md-input-container>
+	    </div>
+	 </div>
+	</div>
+</div>
+</div>
+<div style = "margin-left:200px" flout:left;>
+<div class="left-card demo-card mdl-card mdl-shadow--2dp">
+<div class="mdl-card__title">
+  <h2 class="mdl-card__title-text">Teams</h2>
+</div>
+<div class="mdl-card__supporting-text">
+  <div style="margin-left: 100 px">
+	  <h1 class="md-title">Pick a Team 2 Below</h1>
+	    <div layout="row">
+	      <md-input-container>
+	        <label>Teams</label>
+	        <md-select ng-model="selectTeams1"
+	                   md-on-close="clearSearchTerm()"
+	                   data-md-container-class="selectdemoSelectHeader">
+	          <md-select-header class="demo-select-header">
+	            <input ng-model="query"
+	                   type="search"
+	                   placeholder="Search for a team"
+	                   class="demo-header-searchbox _md-text">
+	          </md-select-header>
+	            <md-option ng-value="team" ng-repeat="team in teams | filter: query">{{team.team_name}}</md-option>
+	        </md-select>
+	      </md-input-container>
+	    </div>
+	 </div>
+	</div>
+</div>
+</div>
+</div>
+<div style="margin-top:125px">
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" style="margin-left:600px">
+  Simulate
+</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- <div>
+<body>
+  <button id="show-dialog" type="button" class="mdl-button">Show Dialog</button>
+  <dialog class="mdl-dialog">
+    <h4 class="mdl-dialog__title">Allow data collection?</h4>
+    <div class="mdl-dialog__content">
+      <p>
+        Allowing us to collect data will let us get you the information you want faster.
+      </p>
+    </div>
+    <div class="mdl-dialog__actions">
+      <button type="button" class="mdl-button">Agree</button>
+      <button type="button" class="mdl-button close">Disagree</button>
+    </div>
+  </dialog>
+
+  <script>
+    // var dialog = document.querySelector('dialog');
+    // var showDialogButton = document.querySelector('#show-dialog');
+    // if (! dialog.showModal) {
+    //   dialogPolyfill.registerDialog(dialog);
+    // }
+    // showDialogButton.addEventListener('click', function() {
+    //   dialog.showModal();
+    // });
+    // dialog.querySelector('.close').addEventListener('click', function() {
+    //   dialog.close();
+    // });
+  </script>
+</body>
+
+</div>
+ -->
+
+
+
+
+
+
+
+
+
