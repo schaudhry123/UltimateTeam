@@ -74,6 +74,14 @@ angular
         templateUrl: 'views/team-detail.html',
         controller: 'TeamDetailCtrl'
       })
+      .when('/createplayer', {
+        templateUrl: 'views/create_player.html',
+        controller: 'CreatePlayerCtrl'
+      })
+      .when('/location', {
+        templateUrl: 'views/createplayer.html',
+        controller: 'LocationCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -1,0 +1,69 @@
+<div class="centered-card demo-card mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Create a Team</h2>
+  </div>
+
+  <div class="mdl-card__supporting-text">
+    <form>
+      <label>Name</label>
+      <md-input-container>
+        <input ng-model="team.name" ng-minlength="5" required>
+        <!--<span ng-show="!name.length">Please enter something!</span> -->
+        <!--<special-input value="Pascal"></special-input> -->
+      </md-input-container>
+      
+      <!--<label>Manager</label>
+      <md-input-container>
+        <input ng-model="home.manager" type="text" ng-disabled="boxes.two.$dirty" required>
+      </md-input-container> -->
+
+      <label>Location</label>
+      <md-input-container>
+        <input ng-model="team.location" ng-minlength="1" required>
+        <span ng-show="!location.length">Please enter something!</span>
+      </md-input-container>
+
+   <!--  <md-input-container>
+      <label>Players</label>
+      <md-select ng-model="team.players" aria-label="Players" required>
+        <md-option value="player 1">P1</md-option>
+        <md-option value="player 2">P2</md-option>
+        <md-option value="player 3">P3</md-option>
+        <md-option value="player 4">P4</md-option>
+        <md-option value="player 5">more</md-option>
+        <md-option value="player 6">hi</md-option>
+        <md-option value="player 1">same</md-option>
+        <md-option value="player 1">okie</md-option>
+      </md-select>
+    </md-input-container> -->
+
+    <div>
+    <h5 class="md-card__title">Pick a Player below</h5>
+    <div layout="row">
+      <md-input-container>
+        <label>Players</label>
+        <md-select ng-model="selectVegetables"
+                   md-on-close="clearSearchTerm()"
+                   data-md-container-class="selectdemoSelectHeader">
+          <md-select-header class="demo-select-header">
+            <input ng-model="query"
+                   type="search"
+                   placeholder="Search for a team"
+                   class="demo-header-searchbox _md-text">
+          </md-select-header>
+            <md-option ng-value="team" ng-repeat="team in teams | filter: query">{{team.players}}</md-option>
+        </md-select>
+      </md-input-container>
+    </div>
+    </form>
+ </div>
+
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Submit
+    </a>
+</div>
+
+
+
