@@ -1,9 +1,10 @@
 import re
-files = ["bundesliga.csv", "liga.csv", "premier.csv", "serie_a.csv"]
-output = ["bundesliga_out.csv", "liga_out.csv", "premier_out.csv", "serie_a_out.csv"]
+files = ["bundesliga.txt", "liga.txt", "premier.txt", "serie_a.txt"]
+output = ["bundesliga_out.txt", "liga_out.txt", "premier_out.txt", "serie_a_out.txt"]
 for init,out in zip(files,output):
 	f = open("Data/" + init, "r")
 	a = open("Data/" + out, "w+")
+
 	start = 1
 	scores = 0
 	passers = 0
@@ -22,44 +23,44 @@ for init,out in zip(files,output):
 			line = line.strip('\n')
 			line = line.strip('\r')
 			splitted = line.split(",")
-			splitted[3] += " (" + splitted[0] + ")"
-			position = re.findall(r"[\w']+", splitted[5])
+			splitted[4] += " (" + splitted[0] + ")"
+			position = re.findall(r"[\w']+", splitted[6])
 			for pos in position:
 				if pos == "GK":
-					splitted[5] = "Keeper"
+					splitted[6] = "Keeper"
 					break
 				elif pos == "FW":
-					splitted[5] = "Forward"
+					splitted[6] = "Forward"
 					break
 				elif pos == "D":
-					splitted[5] = "Defender"
+					splitted[6] = "Defender"
 					break
 				elif pos == "AM" or pos == "DM" or pos == "M":
-					splitted[5] = "Midfielder"
-			if(splitted[13] == '-'):
-				splitted[13] = str(0)
-			goals = float(splitted[13])
+					splitted[6] = "Midfielder"
+			if(splitted[14] == '-'):
+				splitted[14] = str(0)
+			goals = float(splitted[14])
 			if goals > 15:
 				splitted.append("Scoring")
-				#print splitted[3]
+				#print splitted[4]
 				scores += 1
-			if(splitted[18] == '-'):
-				splitted[18] = str(0)
-			pass_percentage = float(splitted[18])
+			if(splitted[19] == '-'):
+				splitted[19] = str(0)
+			pass_percentage = float(splitted[19])
 			if pass_percentage > 95:
 				splitted.append("Passing")
-				#print splitted[3]
+				#print splitted[4]
 				passers += 1
-			if(splitted[21] == '-'):
-				splitted[21] = str(0)
-			rating = float(splitted[21])
-			if rating >= 7 and splitted[5] == "Keeper":
+			if(splitted[22] == '-'):
+				splitted[22] = str(0)
+			rating = float(splitted[22])
+			if rating >= 7 and splitted[6] == "Keeper":
 				splitted.append("Goalkeeping")
-				#print splitted[3]
+				#print splitted[4]
 				keepers += 1
-			if rating >= 7.4 and splitted[5] == "Defender":
+			if rating >= 7.4 and splitted[6] == "Defender":
 				splitted.append("Defending")
-				#print splitted[3]
+				#print splitted[4]
 				defenders += 1
 			line = ",".join(splitted)
 			a.write(line + "\r")
