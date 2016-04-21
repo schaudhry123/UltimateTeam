@@ -57,7 +57,7 @@ angular
       .when('/roommates', {
         templateUrl: 'views/roommates.html',
         controller: 'roommatesCtrl'
-      })     
+      })
        .when('/players', {
         templateUrl: 'views/player-list.html',
         controller: 'PlayerListCtrl'
@@ -84,7 +84,7 @@ angular
   })
   .controller('appCtrl', function($http, $location, $mdToast, $rootScope) {
 
-    $rootScope.serverHost = 'http://tophaus.herokuapp.com/';
+    $rootScope.serverHost = 'http://ultimate-team-rest-api.herokuapp.com/';
 
     // Check if the user is logged in
     if (!$rootScope.user) {

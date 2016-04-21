@@ -11,18 +11,29 @@ angular.module('frontendApp')
         return;
       }
 
-      $http
-        .get($rootScope.serverHost + 'users?&name=' + $scope.user.name)
-        .then(function(response) {
-          if (response.data.length !== 1) {
-            $rootScope.showSimpleToast('Invalid login');
-          } else {
-            $rootScope.showSimpleToast('Welcome!');
-            $rootScope.user = response.data[0];
+      $http.get($rootScope.serverHost + 'users/').then(function(response) {
+        var users = response.data['results'];
+        //$scope.user.name
+        if (users.length !== 1) {
+          $rootScope.showSimpleToast('Invalid login');
+        } else {
+          var found = false;
+          for (var i = 0; i < users.length; i++) {
+            var user = users[i];
+            console.log(user);
+            if (user['username'].localeCompare($scope.user.name) == 0) {
+              $rootScope.showSimpleToast('Welcome!');
+              $rootScope.user = user['username'];
+              found = true;
 
-            $rootScope.goToState('overview');
+              $rootScope.goToState('overview');
+              break;
+            }
           }
-        });
+          if (!found)
+            $rootScope.showSimpleToast('No matching username found');
+        }
+      });
     };
 
     $scope.signup = function() {
