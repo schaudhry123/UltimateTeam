@@ -62,6 +62,8 @@ for init,out in zip(files,output):
 				splitted.append("Defending")
 				#print splitted[4]
 				defenders += 1
+			else:
+				splitted.append("null")
 			line = ",".join(splitted)
 			a.write(line + "\r")
 	print "Top scorers added to " + out + ": " + str(scores)
