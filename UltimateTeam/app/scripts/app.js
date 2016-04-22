@@ -126,6 +126,8 @@ angular
       // $http.delete($rootScope.serverHost + 'users/deleteUser/' + $rootScope.user.id + '/')
         $rootScope.showSimpleToast('Deleted ' + $rootScope.user.name);
         $rootScope.logout();
+        // $rootScope.user = null;
+        // $rootScope.goToState('/');
     };
 
     $rootScope.logout = function() {
