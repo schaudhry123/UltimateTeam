@@ -22,7 +22,7 @@
 			           class="demo-header-searchbox _md-text">
 			  </md-select-header>
 			  <md-optgroup label="teams">
-			    <md-option ng-value="team" ng-repeat="team in teams | filter:searchTerm">{{team.name}}</md-option>
+			    <md-option ng-value="team.url" ng-repeat="team in teams | filter:searchTerm">{{team.name}}</md-option>
 			  </md-optgroup>
 			</md-select>
     </md-input-container>
@@ -104,7 +104,7 @@
 		<!-- Skills -->
     <md-input-container>
       <label>Skills (Scoring, Defending, Passing, Goalkeeping)</label>
-      <input ng-model="player.goals" required>
+      <input ng-model="player.skills" required>
     </md-input-container>
 
 

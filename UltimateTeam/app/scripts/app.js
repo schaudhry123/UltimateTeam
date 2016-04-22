@@ -97,6 +97,7 @@ angular
   .controller('appCtrl', function($http, $location, $mdToast, $rootScope) {
 
     $rootScope.serverHost = 'http://ultimate-team-rest-api.herokuapp.com/';
+    // $rootScope.serverHost = 'http://127.0.0.1:8000/';
 
     // Check if the user is logged in
     if (!$rootScope.user) {

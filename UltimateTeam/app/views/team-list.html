@@ -19,7 +19,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="team in teams | filter: query">
+    <tr ng-repeat="team in teams | filter: owner">
         <td class="mdl-data-table__cell--non-numeric">
           <a ng-href="#/teams/{{team.id}}">{{team.name}}</a>
         </td>

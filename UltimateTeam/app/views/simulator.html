@@ -11,15 +11,14 @@
       <md-select ng-model="team1"
                  md-on-close="clearSearchTerm()"
                  class="selectdemoSelectHeader"
-                 id='selectdemoSelectHeaderId'
-                 multiple>
+                 id='selectdemoSelectHeaderId'>
         <md-select-header class="demo-select-header">
           <input ng-model="searchTerm1"
                  type="search"
                  placeholder="Search for teams..."
                  class="demo-header-searchbox _md-text">
         </md-select-header>
-        md-optgroup label="teams">
+        <md-optgroup label="teams">
           <md-option ng-value="team" ng-repeat="team in teams | filter:searchTerm1">{{team.name}}</md-option>
         </md-optgroup>
       </md-select>
@@ -31,8 +30,7 @@
       <md-select ng-model="team2"
                  md-on-close="clearSearchTerm()"
                  class="selectdemoSelectHeader"
-                 id='selectdemoSelectHeaderId'
-                 multiple>
+                 id='selectdemoSelectHeaderId'>
         <md-select-header class="demo-select-header">
           <input ng-model="searchTerm2"
                  type="search"

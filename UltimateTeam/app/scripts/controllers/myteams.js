@@ -11,6 +11,8 @@ angular.module('frontendApp')
 
 .controller('MyTeamsCtrl', ['$scope', '$http', '$rootScope',
 	function($scope, $http, $rootScope) {
+		$scope.owner = $rootScope.user;
+		console.log($scope.owner);
 
 		$http.get($rootScope.serverHost + 'teams/').success(function(data) {
 			$scope.teams = data['results'];

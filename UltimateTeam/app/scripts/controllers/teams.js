@@ -20,5 +20,6 @@ angular.module('frontendApp')
 	function($scope, $routeParams, $http, $rootScope) {
 		$http.get($rootScope.serverHost + 'teams/' + $routeParams.id + '.json').success(function(data) {
 			$scope.team = data;
+			$scope.players = $scope.team['players'];
 		});
 	}]);

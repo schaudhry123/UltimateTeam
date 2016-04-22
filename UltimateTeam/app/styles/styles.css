@@ -255,12 +255,12 @@ md-input-container {
   width: 512px;
 }
 .demo-card-wide.house-result > .mdl-card__title {
-  background: url('../../images/city.jpg') center / cover;
+  background: url('../../images/soccer-stadium.jpg') center / cover;
   height: 176px;
   color: #FFF;
 }
 .demo-card-wide.image > .mdl-card__title {
-  background: url('../../images/city.jpg') center / cover;
+  background: url('../../images/soccer-stadium.jpg') center / cover;
   height: 176px;
   color: #FFF;
 }

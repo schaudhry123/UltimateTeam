@@ -2,11 +2,14 @@
 
 angular.module('frontendApp')
 
-.config(['$routeProvider', function($routeProvider) {
+.config(['$routeProvider', '$httpProvider', function($routeProvider, $httpProvider) {
   $routeProvider.when('/players', {
     templateUrl: 'views/player-list.html',
     controller: 'PlayerListCtrl'
   });
+
+  $httpProvider.defaults.xsrfCookieName = 'csrftoken';
+	$httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
 }])
 
 .controller('PlayerListCtrl', ['$scope', '$http', '$rootScope',
@@ -25,6 +28,13 @@ angular.module('frontendApp')
 		$http.get($rootScope.serverHost + 'players/' + $routeParams.id + '.json').success(function(data) {
 			$scope.player = data;
 		});
+
+		$scope.deletePlayer = function() {
+			$http.delete($rootScope.serverHost + 'players/' + $routeParams.id).success(function(data) {
+				$scope.showSimpleToast('Player deleted!');
+				$rootScope.goToState('players')
+			});
+		}
 	}])
 
 .controller('CreatePlayerCtrl', ['$scope', '$http', '$rootScope',
@@ -34,7 +44,9 @@ angular.module('frontendApp')
 		});
 
 		$scope.createPlayer = function() {
-			$scope.player.owner = $rootScope.user;
+			// $scope.player.owner = $rootScope.user;
+			console.log(JSON.stringify($scope.player));
+			console.log("Posting to '" + $rootScope.serverHost + 'players/');
 			$http.post($rootScope.serverHost + 'players/', $scope.player)
 				.then(function() {
 					$rootScope.showSimpleToast('Player created!');
