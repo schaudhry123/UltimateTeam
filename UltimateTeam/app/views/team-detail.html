@@ -1,9 +1,17 @@
-<h1>{{team.team_name}}</h1>
-
-<p>Manager: {{team.manager}}</p>
-<p>League: {{team.league}}</p>
-<ul>
+<!-- <ul>
 	<li ng-repeat="player in team.players">
 		<a ng-href="#/players/{{player['id']}}">{{player["player_name"]}}</a>
 	</li>
-</ul>
+</ul> -->
+
+<div layout="row" layout-align="center center">
+	<div class="left-card demo-card mdl-card mdl-shadow--2dp" align="center">
+		<div class="mdl-card__title" align="center">
+	 	 	<h2 class="mdl-card__title-text">{{team.name}}</h2>
+		</div>
+
+	<div class="mdl-card__supporting-text">
+		<p>Team: {{team.name}}</p>
+		<p>League: {{team.league}}</p>
+	</div>
+</div>

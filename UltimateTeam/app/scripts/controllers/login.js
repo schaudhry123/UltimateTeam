@@ -20,7 +20,6 @@ angular.module('frontendApp')
           var found = false;
           for (var i = 0; i < users.length; i++) {
             var user = users[i];
-            console.log(user);
             if (user['username'].localeCompare($scope.user.name) == 0) {
               $rootScope.showSimpleToast('Welcome!');
               $rootScope.user = user['username'];

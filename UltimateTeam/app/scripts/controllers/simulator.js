@@ -9,9 +9,32 @@ angular.module('frontendApp')
   });
 }])
 
-.controller('SimCtrl', ['$scope', '$http',
-	function($scope, $http) {
-		$http.get('http://ultimate-team-rest-api.herokuapp.com/teams/').success(function(data) {
+.controller('SimCtrl', ['$scope', '$http', '$rootScope',
+	function($scope, $http, $rootScope) {
+		$scope.team1;
+		$scope.team2;
+
+		$http.get($rootScope.serverHost + 'teams/').success(function(data) {
 			$scope.teams = data['results'];
 		});
+
+		$scope.searchTerm1;
+		$scope.searchTerm2;
+
+		$scope.clearSearchTerm = function() {
+			$scope.searchTerm1 = '';
+			$scope.searchTerm2 = '';
+		};
+
+		$scope.simulate = function(team1, team2) {
+			if (!team1 || !team2) {
+				$scope.showSimpleToast('Enter both teams!');
+				return false;
+			}
+			$scope.dataLoaded = false;
+			$http.get($rootScope.serverHost + 'simulate/' + team1 + '/' + team2).success(function(data) {
+				$scope.results = data['results'];
+				$scope.dataLoaded = true;
+			});
+		}
 	}])

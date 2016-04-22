@@ -78,6 +78,18 @@ angular
         templateUrl: 'views/simulator.html',
         controller: 'SimCtrl'
       })
+      .when('/createteam', {
+        templateUrl: 'views/create_team.html',
+        controller: 'CreateTeamCtrl'
+      })
+      .when('/createplayer', {
+        templateUrl: 'views/create_player.html',
+        controller: 'CreatePlayerCtrl'
+      })
+      .when('/myteams', {
+        templateUrl: 'views/myteams.html',
+        controller: 'MyTeamsCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
@@ -111,12 +123,9 @@ angular
     };
 
     $rootScope.deleteAccount = function() {
-      $http
-      .delete($rootScope.serverHost + 'users/deleteUser/' + $rootScope.user.id + '/')
-      .then(function() {
+      // $http.delete($rootScope.serverHost + 'users/deleteUser/' + $rootScope.user.id + '/')
         $rootScope.showSimpleToast('Deleted ' + $rootScope.user.name);
         $rootScope.logout();
-      });
     };
 
     $rootScope.logout = function() {

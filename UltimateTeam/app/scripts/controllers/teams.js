@@ -9,16 +9,16 @@ angular.module('frontendApp')
   });
 }])
 
-.controller('TeamListCtrl', ['$scope', '$http',
-	function($scope, $http) {
-		$http.get('http://ultimate-team-rest-api.herokuapp.com/teams/').success(function(data) {
+.controller('TeamListCtrl', ['$scope', '$http', '$rootScope',
+	function($scope, $http, $rootScope) {
+		$http.get($rootScope.serverHost + 'teams/').success(function(data) {
 			$scope.teams = data['results'];
 		});
 	}])
 
-.controller('TeamDetailCtrl', ['$scope', '$routeParams', '$http',
-	function($scope, $routeParams, $http) {
-		$http.get('http://ultimate-team-rest-api.herokuapp.com/teams/' + $routeParams.id + '.json').success(function(data) {
+.controller('TeamDetailCtrl', ['$scope', '$routeParams', '$http', '$rootScope',
+	function($scope, $routeParams, $http, $rootScope) {
+		$http.get($rootScope.serverHost + 'teams/' + $routeParams.id + '.json').success(function(data) {
 			$scope.team = data;
 		});
 	}]);
