@@ -12,7 +12,7 @@ angular.module('ultimateTeam.home', ['ngRoute'])
 .controller('HomeCtrl', ['$scope', '$http',
 	function($scope, $http, $rootScope) {
 		$http.get($rootScope.serverHost + 'players/').success(function(data) {
-			$scope.players = data['results'];
+			$scope.players = data;
 		});
 
 	}]);

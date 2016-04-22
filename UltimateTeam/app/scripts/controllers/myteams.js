@@ -15,7 +15,7 @@ angular.module('frontendApp')
 		console.log($scope.owner);
 
 		$http.get($rootScope.serverHost + 'teams/').success(function(data) {
-			$scope.teams = data['results'];
+			$scope.teams = data;
 		});
 
 		$scope.createteam = function() {

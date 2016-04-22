@@ -12,7 +12,7 @@ angular.module('frontendApp')
 .controller('TeamListCtrl', ['$scope', '$http', '$rootScope',
 	function($scope, $http, $rootScope) {
 		$http.get($rootScope.serverHost + 'teams/').success(function(data) {
-			$scope.teams = data['results'];
+			$scope.teams = data;
 		});
 	}])
 

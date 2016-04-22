@@ -16,6 +16,7 @@
     <tr>
       <th class="mdl-data-table__cell--non-numeric">Team</th>
       <th class="mdl-data-table__cell--non-numeric">League</th>
+      <th class="mdl-data-table__cell--non-numeric">Roster Size</th>
     </tr>
   </thead>
   <tbody>
@@ -25,6 +26,9 @@
         </td>
         <td class="mdl-data-table__cell--non-numeric">
           <span>{{team.league}}</span>
+        </td>
+        <td class="mdl-data-table__cell--non-numeric">
+          <span>{{team.players.length}}</span>
         </td>
     </tr>
   </tbody>

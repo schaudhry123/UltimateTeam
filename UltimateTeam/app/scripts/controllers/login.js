@@ -12,7 +12,7 @@ angular.module('frontendApp')
       }
 
       $http.get($rootScope.serverHost + 'users/').then(function(response) {
-        var users = response.data['results'];
+        var users = response.data;
         //$scope.user.name
         if (users.length !== 1) {
           $rootScope.showSimpleToast('Invalid login');
@@ -23,6 +23,7 @@ angular.module('frontendApp')
             if (user['username'].localeCompare($scope.user.name) == 0) {
               $rootScope.showSimpleToast('Welcome!');
               $rootScope.user = user['username'];
+              $rootScope.user_id = user['id'];
               found = true;
 
               $rootScope.goToState('overview');

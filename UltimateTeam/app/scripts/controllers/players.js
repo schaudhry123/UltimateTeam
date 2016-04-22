@@ -15,7 +15,7 @@ angular.module('frontendApp')
 .controller('PlayerListCtrl', ['$scope', '$http', '$rootScope',
 	function($scope, $http, $rootScope) {
 		$http.get($rootScope.serverHost + 'players/').success(function(data) {
-			$scope.players = data['results'];
+			$scope.players = data;
 		});
 
 		$scope.createplayer = function() {
@@ -40,15 +40,15 @@ angular.module('frontendApp')
 .controller('CreatePlayerCtrl', ['$scope', '$http', '$rootScope',
 	function($scope, $http, $rootScope) {
 		$http.get($rootScope.serverHost + 'teams/').success(function(data) {
-			$scope.teams = data['results'];
+			$scope.teams = data;
 		});
 
 		$scope.createPlayer = function() {
 			// $scope.player.owner = $rootScope.user;
-			console.log(JSON.stringify($scope.player));
-			console.log("Posting to '" + $rootScope.serverHost + 'players/');
-			$http.post($rootScope.serverHost + 'players/', $scope.player)
-				.then(function() {
+			var obj = JSON.stringify($scope.player);
+			console.log("Posting to '" + $rootScope.serverHost	 + 'players/');
+			$http.post($rootScope.serverHost + 'players/', obj)
+				.success(function() {
 					$rootScope.showSimpleToast('Player created!');
 					$rootScope.goToState('players');
 				});

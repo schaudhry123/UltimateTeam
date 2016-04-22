@@ -104,7 +104,7 @@ var app = angular.module('frontendApp')
 					$scope.recommendType = 'Defending';
 				}
 				else if (goalkeepers == 0) {
-					$scope.recommendType = 'Keeping';
+					$scope.recommendType = 'Goalkeeping';
 				}
 				else {
 					var rand = Math.floor((Math.random() * 4) + 1);
@@ -118,7 +118,7 @@ var app = angular.module('frontendApp')
 						case 3: $scope.recommendType = 'Defending';
 						break;
 
-						case 4: $scope.recommendType = 'Keeping';
+						case 4: $scope.recommendType = 'Goalkeeping';
 						break;
 					}
 				}
